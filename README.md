@@ -59,6 +59,15 @@ Quality checks performed:
 
 ---
 
-## Visuals (to be added)
+## Visuals 
+![AdventureWorks Revenue and Profit](AW_graph1.png)
+![AdventureWorks Quarterly Revenue and Profit](AW_graph2.png)
+![AdventureWorks Revenue per Country](AW_graph3.png)
+![AdventureWorks Total Revenue per Country](AW_graph4.png)
+![AdventureWorks Most Profitable Categories](AW_graph5.png)
+![AdventureWorks Most Profitable Subcategories](AW_graph6.png)
+
+
+
 
 
