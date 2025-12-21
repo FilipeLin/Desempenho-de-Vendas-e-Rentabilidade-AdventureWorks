@@ -121,7 +121,7 @@ WITH MonthlyData AS
  SUM(LineTotal - (StandardCost * OrderQty)) AS Profit 
  FROM #panel_Project 
 GROUP BY YEAR(OrderDate), Month(OrderDate)) 
-Select Year, 
+SELECT Year, 
     Month, 
     Revenue, 
     Profit, 
@@ -269,4 +269,5 @@ FROM #panel_Project
 GROUP BY CategoryName, SubCategoryName 
 
 ORDER BY TotalUnitsSold DESC 
+
 
