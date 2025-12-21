@@ -125,8 +125,8 @@ Select Year,
     Month, 
     Revenue, 
     Profit, 
-    CAST(Revenue * 100/Avg(Revenue) over() as Decimal(10,2)) as PercRevenueFromAvg, 
-    CAST(Profit * 100/Avg(Profit) over() as Decimal(10,2)) as PercProfitFromAvg 
+    CAST(Revenue * 100/Avg(Revenue) over() AS Decimal(10,2)) AS PercRevenueFromAvg, 
+    CAST(Profit * 100/Avg(Profit) over() AS Decimal(10,2)) AS PercProfitFromAvg 
 FROM MonthlyData 
 ORDER BY Year, Month 
 
