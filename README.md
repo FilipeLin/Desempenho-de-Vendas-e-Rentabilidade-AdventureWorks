@@ -23,7 +23,9 @@ This project analyzes sales performance using the AdventureWorks dataset by buil
 ## 📁 Repository Structure
 
 code/ → SQL queries
+
 report/ → PDF & PowerPoint (findings summary)
+
 image/ → Report graphs
 
 ---
